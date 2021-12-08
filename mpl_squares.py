@@ -1,7 +1,16 @@
 import matplotlib.pyplot as plt
 
 squares = [1, 4, 9, 16, 25]
+
 fig, ax = plt.subplots()
-ax.plot(squares)
+ax.plot(squares, linewidth=3)
+
+# Defining of the chart title and axis labels.
+ax.set_title("Squares of the numbers", fontsize=24)
+ax.set_xlabel("Values", fontsize=14)
+ax.set_ylabel("Squares of the values", fontsize=14)
+
+# Defining of the size of the labels.
+ax.tick_params(axis="both", labelsize=14)
 
 plt.show()
