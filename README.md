@@ -19,19 +19,18 @@ resource from this material.
 python 3.7 - rest in requirements.txt .
 
 ## Remarks:
-I make this data visualizations so that the master branch has always 
-the functioning code. To run the appropriate data visualization you 
-need to run the appropriate file. I will later describe which file 
-what runs.
+- I make this script so that the master branch has always the 
+  functioning code.
+- The mpl_squares.py script is a standalone script. After running this 
+  script, the standard plot of the quadratic function is shown, where 
+  the five given points on the plot are connected by straight lines.
 
 ## Data Visualizations Summary:
-I will make a simple line graph, a simple scatter plot. Then I will 
-make a visualization based on series of random decisions 
-(random walk). I also intend to use the plotly package for one 
-visualization, where we will check what will happen when we roll 
-the dice in many different ways. I'll write more about the summary 
-later.
+I made a simple line graph. I will make a simple scatter plot. Then I 
+will make a visualization based on series of random decisions (random 
+walk). I also intend to use the plotly package for one visualization, 
+where we will check what will happen when we roll the dice in many 
+different ways.
 
 ## Version:
-I will write about a version for the package of the data 
-visualizations later.
+The version of the code only with the simple line graph has tag 1.0.

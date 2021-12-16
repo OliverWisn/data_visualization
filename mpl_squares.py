@@ -1,3 +1,6 @@
+# mpl_squares.py
+# -*- coding: utf-8 -*-
+
 import matplotlib.pyplot as plt
 
 # Input values for the x and y axes.
