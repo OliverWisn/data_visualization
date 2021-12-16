@@ -5,7 +5,7 @@ input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 
 # Setting of the chart style.
-plt.style.use("Solarize_Light2")
+plt.style.use("ggplot")
 
 # Generating of the chart.
 fig, ax = plt.subplots()
