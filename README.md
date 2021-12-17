@@ -24,13 +24,19 @@ python 3.7 - rest in requirements.txt .
 - The mpl_squares.py script is a standalone script. After running this 
   script, the standard plot of the quadratic function is shown, where 
   the five given points on the plot are connected by straight lines.
+- The scatter_squares.py script is a standalone script. After running 
+  this script, the plot of the quadratic function is shown, where the 
+  points are generated automatically. This script uses the color maps 
+  and saves the resulting plot to the file squares_plot.png.
 
 ## Data Visualizations Summary:
-I made a simple line graph. I will make a simple scatter plot. Then I 
-will make a visualization based on series of random decisions (random 
-walk). I also intend to use the plotly package for one visualization, 
-where we will check what will happen when we roll the dice in many 
+I made a simple line plot and the scatter plot. Then I will make a 
+visualization based on series of random decisions (random walk). I 
+also intend to use the plotly package for one visualization, where we 
+will check what will happen when we roll the dice in many 
 different ways.
 
 ## Version:
-The version of the code only with the simple line graph has tag 1.0.
+- The version of the code only with the simple line plot has tag 1.0.
+- The version of the code with the line plot and scatter plot has tag 
+  2.0.
