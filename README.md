@@ -29,8 +29,6 @@ python 3.7 - rest in requirements.txt .
   points are generated automatically. This script uses the color maps 
   and saves the resulting plot to the file squares_plot.png.
 
-<img src="https://github.com/OliverWisn/data_visualization/blob/squares_plot.png" width=1000>
-
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. Then I will make a 
 visualization based on series of random decisions (random walk). I 
