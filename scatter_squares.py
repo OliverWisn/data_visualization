@@ -12,7 +12,7 @@ plt.style.use("ggplot")
 
 # Generating of the chart.
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, s=10)
+ax.scatter(x_values, y_values,c="DeepSkyBlue" , s=10)
 
 # Defining of the chart title and axis labels.
 ax.set_title("Squares of the numbers", fontsize=24)
