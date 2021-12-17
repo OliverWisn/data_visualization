@@ -3,12 +3,16 @@
 
 import matplotlib.pyplot as plt
 
+# Input values for the x and y axes.
+x_values = [1, 2, 3, 4, 5]
+y_values = [1, 4, 9, 16, 25]
+
 # Setting of the chart style.
 plt.style.use("ggplot")
 
 # Generating of the chart.
 fig, ax = plt.subplots()
-ax.scatter(2, 4, s=200)
+ax.scatter(x_values, y_values, s=100)
 
 # Defining of the chart title and axis labels.
 ax.set_title("Squares of the numbers", fontsize=24)
