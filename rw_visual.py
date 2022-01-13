@@ -22,5 +22,9 @@ ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.spring, \
 ax.scatter(0, 0, c="green", edgecolor="none", s=100)
 ax.scatter(rw.x_values[-1], rw.y_values[-1], c="red", edgecolor="none", s=100)
 
+# Hiding of the axes.
+ax.get_xaxis().set_visible(False)
+ax.get_yaxis().set_visible(False)
+
 # Chart display.
 plt.show()
