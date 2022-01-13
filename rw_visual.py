@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
 # Prepare random walk data and display points.
-rw = RandomWalk()
+rw = RandomWalk(50_000)
 rw.fill_walk()
 
 # Setting of the chart style.
@@ -16,7 +16,7 @@ plt.style.use("ggplot")
 fig, ax = plt.subplots()
 point_numbers = range(rw.num_points)
 ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.spring, \
-    edgecolor="none", s=15)
+    edgecolor="none", s=1)
 
 # Stressing of the first point and the last point of the random walk.
 ax.scatter(0, 0, c="green", edgecolor="none", s=100)
