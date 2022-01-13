@@ -26,5 +26,8 @@ ax.scatter(rw.x_values[-1], rw.y_values[-1], c="red", edgecolor="none", s=100)
 ax.get_xaxis().set_visible(False)
 ax.get_yaxis().set_visible(False)
 
+# Save the chart.
+plt.savefig("random_walk_plot.png", bbox_inches="tight")
+
 # Chart display.
 plt.show()
