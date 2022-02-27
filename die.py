@@ -14,4 +14,4 @@ class Die():
         """
         Return of a value from 1 to the number of faces the dice has.
         """
-        return.randint(1, self.num_sides)
+        return randint(1, self.num_sides)
