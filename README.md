@@ -16,7 +16,7 @@ on the material from this book". So please don't create a learning
 resource from this material.
 
 ## Requirements: 
-python 3.7 - rest in requirements.txt .
+python 3.10 - rest in requirements.txt .
 
 ## Remarks:
 - I make this script so that the master branch has always the 
@@ -40,11 +40,31 @@ python 3.7 - rest in requirements.txt .
 
 <img src="https://github.com/OliverWisn/data_visualization/blob/master/random_walk_plot.png?raw=true"/>
 
+- The dice\die.py script is a module for the other scripts in 
+  the directory.
+- The dice\die_visual.py script is a standalone script. When this 
+  script is run, the browser shows the frequency graph of the throwing 
+  frequency of the one cubic die. The plot is also saved by the script 
+  in the d6.html file. It was made into an image called d6_plot.png.
+- The dice\dice_visual.py script is a standalone script. When this 
+  script is run, the browser shows the frequency graph of the throwing 
+  frequency of the two cubic dice. The plot is also saved by the script 
+  in the d6_d6.html file. It was made into an image called 
+  d6_d6_plot.png.
+- The dice\dice_visual_different_sizes.py script is a standalone 
+  script. When this script is run, the browser shows the frequency 
+  graph of the throwing frequency of the two different dice: the cubic 
+  die and the ten-sided die. The plot is also saved by the script in 
+  the d6_d10.html file. It was made into an image called 
+  d6_d10_plot.png.
+
+<img src="https://github.com/OliverWisn/data_visualization/dice/blob/master/d6_d10_plot.png?raw=true"/>
+
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
 visualization based on series of random decisions (random walk). Then 
-I will make a simulation based on the series of the die rolling with 
-the plotly package, where we will check what will happen when we roll 
+I made a simulation based on the series of the die rolling with 
+the plotly package, where we checked what will happen when we roll 
 the dice in many different ways.
 
 ## Version:
@@ -53,3 +73,6 @@ the dice in many different ways.
   2.0.
 - The version of the code with the line plot, scatter plot and random 
   walk has tag 3.0.
+- The version 4.0 of the code has the same things as the version 3.0 
+  and additionally has the simulation based on the series of the die or 
+  the dice rolling.
