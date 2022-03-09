@@ -58,8 +58,6 @@ python 3.10 - rest in requirements.txt .
   the d6_d10.html file. It was made into an image called 
   d6_d10_plot.png.
 
-<img src="https://github.com/OliverWisn/data_visualization/blob/master/different_dice.jpg" width=1000>
-
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
 visualization based on series of random decisions (random walk). Then 
