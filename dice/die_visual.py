@@ -1,4 +1,4 @@
-# random_walk.py
+# die_visual.py
 # -*- coding: utf-8 -*-
 
 from plotly.graph_objs import Bar, Layout
