@@ -63,7 +63,8 @@ I made a simple line plot and the scatter plot. After this I made the
 visualization based on series of random decisions (random walk). Then 
 I made a simulation based on the series of the die rolling with 
 the plotly package, where we checked what will happen when we roll 
-the dice in many different ways.
+the dice in many different ways. The next visualization will be a plot 
+of temperature changes during the day in two cities in the USA.
 
 ## Version:
 - The version of the code only with the simple line plot has tag 1.0.
@@ -73,4 +74,4 @@ the dice in many different ways.
   walk has tag 3.0.
 - The version 4.0 of the code has the same things as the version 3.0 
   and additionally has the simulation based on the series of the die or 
-  the dice rolling.
+  dice rolling.
