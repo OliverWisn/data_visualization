@@ -25,8 +25,9 @@ with open(filename) as f:
 # Generating the plot of the highest temperatures.
 plt.style.use("seaborn")
 fig, ax = plt.subplots()
-ax.plot(dates, highs, c="red")
-ax.plot(dates, lows, c="blue")
+ax.plot(dates, highs, c="red", alpha=0.5)
+ax.plot(dates, lows, c="blue", alpha=0.5)
+ax.fill_between(dates, highs, lows, facecolor="blue", alpha=0.1)
 
 # Format the plot.
 ax.set_title("Highest and lowest temperature of the day - 2018", fontsize=24)
