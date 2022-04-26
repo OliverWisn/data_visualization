@@ -1,4 +1,4 @@
-# sitka_highs.py
+# sitka_highs_lows.py
 # -*- coding: utf-8 -*-
 
 import csv
