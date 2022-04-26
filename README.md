@@ -62,14 +62,21 @@ python 3.10 - rest in requirements.txt .
 - The temperature\sitka_highs_lows.py script is a standalone script. 
   This script shows Sitka's highest and lowest daytime temperatures in 
   2018. The area between the data series is shaded.
+- The temperature\death_valley_highs_lows.py script is a standalone 
+  script. This script shows death Valley's highest and lowest daytime 
+  temperatures in 2018. The area between the data series is shaded. 
+  The simple error handling has been added to the script. The plot is 
+  also saved by me in the death_valley_highs_lows.png file.
+
+<img src="https://github.com/OliverWisn/data_visualization/blob/master/death_valley_highs_lows.png?raw=true"/>
 
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
 visualization based on series of random decisions (random walk). Then 
 I made a simulation based on the series of the die rolling with 
 the plotly package, where we checked what will happen when we roll 
-the dice in many different ways. The next visualization will be a plot 
-of temperature changes during the day in two cities in the USA.
+the dice in many different ways. The next visualization I made was 
+a plot of temperature changes during the day in two places in the USA.
 
 ## Version:
 - The version of the code only with the simple line plot has tag 1.0.
@@ -80,3 +87,6 @@ of temperature changes during the day in two cities in the USA.
 - The version 4.0 of the code has the same things as the version 3.0 
   and additionally has the simulation based on the series of the die or 
   dice rolling.
+- The version 5.0 of the code has the same things as the version 4.0 
+  and additionally has plots of temperature changes during the day in 
+  two places in the USA.
