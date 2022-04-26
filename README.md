@@ -77,6 +77,8 @@ I made a simulation based on the series of the die rolling with
 the plotly package, where we checked what will happen when we roll 
 the dice in many different ways. The next visualization I made was 
 a plot of temperature changes during the day in two places in the USA.
+I am currently working on the visualizing of earthquake data from 
+the JSON file.
 
 ## Version:
 - The version of the code only with the simple line plot has tag 1.0.
