@@ -57,6 +57,11 @@ python 3.10 - rest in requirements.txt .
   die and the ten-sided die. The plot is also saved by the script in 
   the d6_d10.html file. It was made into an image called 
   d6_d10_plot.png.
+- The temperature\sitka_highs.py script is a standalone script. This 
+  script shows the highest daytime temperature in Sitka in 2018.
+- The temperature\sitka_highs_lows.py script is a standalone script. 
+  This script shows Sitka's highest and lowest daytime temperatures in 
+  2018. The area between the data series is shaded.
 
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
