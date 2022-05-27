@@ -76,8 +76,6 @@ python 3.10 - rest in requirements.txt .
   days. The plot is based on the data from the United States 
   Geological Survey downloaded in JSON format.
 
-<img src="https://github.com/OliverWisn/data_visualization/blob/master/global_earthquakes.png?raw=true"/>
-
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
 visualization based on series of random decisions (random walk). Then 
