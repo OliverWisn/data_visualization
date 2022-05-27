@@ -33,8 +33,8 @@ data = [{
     'marker': {
         'size': [5*mag for mag in mags], 
         'color': mags, 
-        'colorscale': 'viridis', 
-        'reversescale': True, 
+        'colorscale': 'Jet', 
+        'reversescale': False, 
         'colorbar': {'title': 'Force'}, 
         }, 
     }]
