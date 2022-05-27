@@ -26,7 +26,7 @@ for eq_dict in all_eq_dicts:
     lats.append(lat)
 
 # Earthquake map.
-data = [Scattergeo(lon=lons, lat=lats)]
+data = [{'type': 'scattergeo', 'lon': lons, 'lat': lats, 'marker': {'size': [5*mag for mag in mags]}, }]
 my_layout = Layout(title='Global Earthquakes')
 
 # Visualization of the results.
