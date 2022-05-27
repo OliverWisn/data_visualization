@@ -70,6 +70,14 @@ python 3.10 - rest in requirements.txt .
 
 <img src="https://github.com/OliverWisn/data_visualization/blob/master/death_valley_highs_lows.png?raw=true"/>
 
+- The earthquake\eq_world_map.py script is a standalone script. This 
+  script displays and saves in an html file in the earthquake 
+  directory a world map with marked earthquakes over a period of 30 
+  days. The plot is based on the data from the United States 
+  Geological Survey downloaded in JSON format.
+
+<img src="https://github.com/OliverWisn/data_visualization/blob/master/global_earthquakes.png?raw=true"/>
+
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
 visualization based on series of random decisions (random walk). Then 
@@ -77,8 +85,8 @@ I made a simulation based on the series of the die rolling with
 the plotly package, where we checked what will happen when we roll 
 the dice in many different ways. The next visualization I made was 
 a plot of temperature changes during the day in two places in the USA.
-I am currently working on the visualizing of earthquake data from 
-the JSON file.
+In the directory earthquake I made the visualizing of earthquake data 
+from the JSON file.
 
 ## Version:
 - The version of the code only with the simple line plot has tag 1.0.
@@ -92,3 +100,6 @@ the JSON file.
 - The version 5.0 of the code has the same things as the version 4.0 
   and additionally has plots of temperature changes during the day in 
   two places in the USA.
+- The version 6.0 of the code has the same things as the version 5.0 
+  and additionally has plot of the visualizing of the global 
+  earthquake data from the JSON file.
