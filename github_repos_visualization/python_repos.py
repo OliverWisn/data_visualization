@@ -18,6 +18,12 @@ print(f'Count of the repositories returned: {len(repo_dicts)}')
 
 # Analysis of the first repository.
 repo_dict = repo_dicts[0]
-print(f'\nKeys: {len(repo_dict)}')
-for key in sorted(repo_dict.keys()):
-	print(key)
+
+print('\nSelected information about the first repository:')
+print(f"Name: {repo_dict['name']}")
+print(f"Owner: {repo_dict['owner']['login']}")
+print(f"Stargazers: {repo_dict['stargazers_count']}")
+print(f"Repository: {repo_dict['html_url']}")
+print(f"Created at: {repo_dict['created_at']}")
+print(f"Updated at: {repo_dict['updated_at']}")
+print(f"Description: {repo_dict['description']}")
