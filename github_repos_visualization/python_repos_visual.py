@@ -7,19 +7,6 @@ import requests
 from plotly.graph_objs import Bar
 from plotly import offline
 
-def uprint(*objects, sep=' ', end='\n', file=sys.stdout):
-	"""
-	Replacing of the problematic characters with the replacement 
-	characters.
-	"""
-	enc = file.encoding
-	if enc == 'UTF-8':
-		print(*objects, sep=sep, end=end, file=file)
-	else:
-		f = lambda obj: str(obj).encode(enc, 
-			errors='backslashreplace').decode(enc)
-		print(*map(f, objects), sep=sep, end=end, file=file)
-
 # Make the API call and save the response received.
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
 headers = {'Accept': 'aplication/vnd.github.v3+json'}
@@ -40,22 +27,28 @@ for repo_dict in repo_dicts:
 data = [{
 	'type': 'bar', 
 	'x': repo_names, 
-	'y': stars
+	'y': stars,
+	'marker': {
+		'color': 'rgb(60, 100, 150)', 
+		'line': {'width': 1.5, 'color': 'rgb(25, 25, 25)'}
+	},
+	'opacity': 0.6, 
 }]
 
 my_layout = {
 	'title': 'The most starred python projects on GitHub', 
-	'xaxis': {'title': "Repository"}, 
-	'yaxis': {'title': 'Stars'}
+	'titlefont': {'size': 28}, 
+	'xaxis': {
+		'title': "Repository", 
+		'titlefont': {'size': 24}, 
+		'tickfont': {'size': 14},
+	}, 
+	'yaxis': {
+		'title': 'Stars', 
+		'titlefont': {'size': 24}, 
+		'tickfont': {'size': 14},
+	},
 }
 
 fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename='python_repos.html')
-
-print('\nSelected information about each repository:')
-for repo_dict in repo_dicts:
-	print(f"\nName: {repo_dict['name']}")
-	print(f"Owner: {repo_dict['owner']['login']}")
-	print(f"Stargazers: {repo_dict['stargazers_count']}")
-	print(f"Repository: {repo_dict['html_url']}")
-	uprint(f"Description: {repo_dict['description']}")
