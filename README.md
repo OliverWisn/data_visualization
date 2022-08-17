@@ -85,7 +85,7 @@ python 3.10 - rest in requirements.txt .
   and performs a bar visualization for the first 30 python 
   repositories that received the highest number of stars.
 
-<img src="https://github.com/OliverWisn/data_visualization/blob/master/python_repos_visual.png?raw=true"/>
+<img src="https://github.com/OliverWisn/data_visualization/blob/master/python_repos_visual.bmp?raw=true"/>
 
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
