@@ -75,6 +75,17 @@ python 3.10 - rest in requirements.txt .
   directory a world map with marked earthquakes over a period of 30 
   days. The plot is based on the data from the United States 
   Geological Survey downloaded in JSON format.
+- The github_repos_visualization\python_repos.py script is 
+  a standalone script. The script retrieves data from the GitHub API 
+  and prints the information we are interested in in the python shell 
+  for the first 30 python repositories that received the highest 
+  number of the stars.
+- The github_repos_visualization\python_repos_visual.py script is 
+  a standalone script. The script retrieves data from the GitHub API 
+  and performs a bar visualization for the first 30 python 
+  repositories that received the highest number of stars.
+
+<img src="https://github.com/OliverWisn/data_visualization/blob/master/python_repos_visual.png?raw=true"/>
 
 ## Data Visualizations Summary:
 I made a simple line plot and the scatter plot. After this I made the 
