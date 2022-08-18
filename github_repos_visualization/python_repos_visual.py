@@ -7,6 +7,7 @@ import requests
 from plotly.graph_objs import Bar
 from plotly import offline
 
+
 # Make the API call and save the response received.
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
 headers = {'Accept': 'aplication/vnd.github.v3+json'}
