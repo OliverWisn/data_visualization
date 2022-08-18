@@ -86,14 +86,17 @@ python 3.10 - rest in requirements.txt .
   repositories that received the highest number of stars.
 
 ## Data Visualizations Summary:
-I made a simple line plot and the scatter plot. After this I made the 
-visualization based on series of random decisions (random walk). Then 
-I made a simulation based on the series of the die rolling with 
-the plotly package, where we checked what will happen when we roll 
-the dice in many different ways. The next visualization I made was 
-a plot of temperature changes during the day in two places in the USA.
-In the directory earthquake I made the visualizing of earthquake data 
-from the JSON file.
+I have included the following data visualizations in the repository:
+- Simple line plot and the scatter plot. 
+- Visualization based on series of random decisions (random walk).
+- Simulation based on the series of the die rolling with the plotly 
+  package, where we checked what will happen when we roll the dice in 
+  many different ways. 
+- Plot of temperature changes during the day in two places in 
+  the USA.
+- Visualizing of earthquake data from the JSON file.
+- Bar visualization of the data from the GitHub API for the first 30 
+  python repositories that received the highest number of stars.
 
 ## Version:
 - The version of the code only with the simple line plot has tag 1.0.
@@ -110,3 +113,7 @@ from the JSON file.
 - The version 6.0 of the code has the same things as the version 5.0 
   and additionally has plot of the visualizing of the global 
   earthquake data from the JSON file.
+- The version 7.0 of the code has the same things as the version 6.0 
+  and additionally has plot of the visualizing of the first 30 python 
+  repositories from the GitHub API that received the highest number 
+  of stars.
