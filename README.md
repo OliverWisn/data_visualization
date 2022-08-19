@@ -84,6 +84,8 @@ python 3.10 - rest in requirements.txt .
   a standalone script. The script retrieves data from the GitHub API 
   and performs a bar visualization for the first 30 python 
   repositories that received the highest number of stars.
+  
+![python_repos_visual](https://user-images.githubusercontent.com/79323713/185683317-4cab7451-c6ad-446d-97d6-09e0b8579dea.png)
 
 ## Data Visualizations Summary:
 I have included the following data visualizations in the repository:
