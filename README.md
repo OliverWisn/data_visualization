@@ -28,9 +28,6 @@ python 3.10 - rest in requirements.txt .
   this script, the plot of the quadratic function is shown, where the 
   points are generated automatically. This script uses the color maps 
   and saves the resulting plot to the file squares_plot.png.
-
-<img src="https://github.com/OliverWisn/data_visualization/blob/master/squares_plot.png?raw=true"/>
-
 - The rw_visual.py script is a standalone script. After running 
   this script, the plot of the random walk is shown, where the 
   points are generated automatically. This script uses the color maps 
@@ -75,6 +72,9 @@ python 3.10 - rest in requirements.txt .
   directory a world map with marked earthquakes over a period of 30 
   days. The plot is based on the data from the United States 
   Geological Survey downloaded in JSON format.
+ 
+![earthquake](https://user-images.githubusercontent.com/79323713/185978636-9d3c7dd3-0c1c-4ac8-81bc-6db911ff0a34.png)
+
 - The github_repos_visualization\python_repos.py script is 
   a standalone script. The script retrieves data from the GitHub API 
   and prints the information we are interested in in the python shell 
