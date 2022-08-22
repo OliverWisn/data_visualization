@@ -16,7 +16,7 @@ on the material from this book". So please don't create a learning
 resource from this material.
 
 ## Requirements: 
-python 3.10 - rest in requirements.txt .
+python 3.7.9 - rest in requirements.txt .
 
 ## Remarks:
 - I make this script so that the master branch has always the 
