@@ -1,12 +1,11 @@
 # Data Visualizations
 
 ## Motivation:
-I make this data visualizations because I study Data Science. I would 
-like to walk through the Python Standard Library + matplotlib and 
-plotly. 
+I made this data visualizations because I study Data Science. I wanted 
+to walk through the Python Standard Library + matplotlib and plotly. 
 
 ## Rights:
-This data visualizations are made on the basis of the book "Python 
+This data visualizations was made on the basis of the book "Python 
 Crash Course - A Hands-On, Project-Based Introduction to Programming" 
 by Eric Matthes. The autor of the book give me the right, I quote, "to 
 share the code you wrote for the exercises in the book to show people 
@@ -19,7 +18,7 @@ resource from this material.
 python 3.7.9 - rest in requirements.txt .
 
 ## Remarks:
-- I make this script so that the master branch has always the 
+- I made this script so that the master branch had always the 
   functioning code.
 - The mpl_squares.py script is a standalone script. After running this 
   script, the standard plot of the quadratic function is shown, where 
@@ -88,7 +87,7 @@ python 3.7.9 - rest in requirements.txt .
 ![python_repos_visual](https://user-images.githubusercontent.com/79323713/185683317-4cab7451-c6ad-446d-97d6-09e0b8579dea.png)
 
 ## Data Visualizations Summary:
-I have included the following data visualizations in the repository:
+I had included the following data visualizations in the repository:
 - Simple line plot and the scatter plot. 
 - Visualization based on series of random decisions (random walk).
 - Simulation based on the series of the die rolling with the plotly 
